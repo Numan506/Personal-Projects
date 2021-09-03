@@ -1,0 +1,17 @@
+body{
+    background-color: cadetblue;
+    color: crimson;
+}
+
+button{
+    padding: 4px;
+    margin-right: 15px;
+    margin-left: 5px;
+    background-color: darkcyan;
+    color: darkkhaki;
+    border: none;
+    border-radius: 8px;
+    font-size: 2rem;
+    width: 50px;
+    
+}
