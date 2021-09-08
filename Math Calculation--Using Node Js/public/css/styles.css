@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url('../images/pic.jpg');
+   background-size: cover;
+    
+   
+}
+#main{
+    width: 30%;
+    height: 400px;
+    background-color: darkseagreen;
+    text-align: center;
+    float: left;
+    margin: 50px 10px 0 470px;
+}
+#hed{
+    background-color: lightcoral;
+    width: 100%;
+    height: 55px;
+    color: mediumblue;
+    padding: 2px;
+    margin-bottom: 50px;
+}
+#main input{
+    height: 30px;
+    width: 45%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#main label{
+    font-size: 23px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+.btn1{
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-right: -20px;
+    margin-top: 115px;
+    font-size: 25px;
+    background-color: black;
+    color: yellow;
+    box-shadow:inset 0 0 0 0 cornflowerblue
+}
+.btn1:hover{
+    box-shadow:inset 300px 0 0 0 aqua
+}
+.btn2{
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin-right: -20px;
+    margin-top: 159px;
+    font-size: 25px;
+    background-color: black;
+    color: yellow;
+    box-shadow:inset 0 0 0 0 cornflowerblue
+}
+.btn2:hover{
+    box-shadow:inset 300px 0 0 0 aqua
+}
+
+
+
