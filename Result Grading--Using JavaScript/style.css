@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./image/brazil.jpg');
+    background-size: cover;
+    
+}
+#main{
+    width: 40%;
+    height: 500px;
+    background-color: darkseagreen;
+    text-align: center;
+    float: left;
+    margin: 40px 10px 0 150px;
+}
+#hed{
+    background-color: green;
+    width: 100%;
+    height: 55px;
+    color: yellow;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+#main input{
+    height: 30px;
+    width: 45%;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#main label{
+    font-size: 23px;
+    padding-right: 40px;
+    margin-bottom: 10px;
+}
+.btn1{
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 35px;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: black;
+    color: yellow;
+    box-shadow:inset 0 0 0 0 cornflowerblue
+}
+.btn1:hover{
+    box-shadow:inset 300px 0 0 0 aqua
+}
+.btn2{
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 35px;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: black;
+    color: yellow;
+}
+.btn2:hover{
+    box-shadow:inset 300px 0 0 0 purple
+}
+.btn3{
+    outline: none;
+    border: none;
+    width: 100px;
+    height: 35px;
+    margin-right: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    background-color: black;;
+    color: yellow;
+}
+.btn3:hover{
+    box-shadow:inset 300px 0 0 0 teal
+}
+#result{
+    height: 500px;
+    width: 30%;
+    float: left;
+    margin-top: 40px;
+    background-color: beige;
+}
+#head1, #head2, #head3{
+   background-color: cornflowerblue;
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+    
+
+}
+#total{
+    height: 200px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: sienna;
+    
+    
+}
+#grade{
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: springgreen;
+    
+    
+}
+#average{
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    color: tomato;
+    
+}
+
